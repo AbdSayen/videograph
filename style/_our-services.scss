@@ -1,0 +1,42 @@
+.our-services {
+    margin-top: 10rem;
+    color: white;
+    font-weight: 600;
+    button {
+        margin-top: 3rem;
+    }
+    .title-text {
+        left: 0;
+    }
+    .services-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    .services-card {
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+        i {
+            width: 5rem;
+            height: 5rem;
+            font-size: 2.5rem;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            position: relative;
+        }
+        .square {
+            width: 5rem;
+            height: 5rem;
+            border: solid 0.15rem #007bff !important;
+            position: absolute;
+            top: -0.2rem;
+            left: 0;
+            transition: all 0.5s ease;
+        }
+         :hover {
+            .square {
+                transform: rotate(45deg);
+            }
+        }
+    }
+}
