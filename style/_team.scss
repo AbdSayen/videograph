@@ -2,11 +2,18 @@
     margin-top: 5rem;
     background-image: url(../images/team-bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     color: white;
+    position: relative;
+    padding-bottom: 5rem;
     button {
-        right: -57.5rem;
+        width: 16rem;
+        height: 2.5rem;
+        right: 15%;
+        position: absolute;
         margin-bottom: 5rem;
+        top: 85%;
     }
     .title-text {
         padding-top: 5rem;
@@ -14,6 +21,7 @@
     }
     .pictures {
         display: inline;
+        flex-wrap: wrap;
         justify-content: center;
         img {
             margin: 0;

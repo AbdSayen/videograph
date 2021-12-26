@@ -1,16 +1,19 @@
 .our-services {
+    justify-content: center;
     margin-top: 10rem;
     color: white;
     font-weight: 600;
     button {
         margin-top: 3rem;
     }
-    .title-text {
-        left: 0;
-    }
+    .title-text {}
     .services-flex {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+    }
+    .services-cards {
+        justify-content: center;
+        margin-top: 3rem;
     }
     .services-card {
         margin-left: 3rem;

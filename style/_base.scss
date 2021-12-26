@@ -1,91 +1,112 @@
-* {
-    font-family: "JosefinSans";
-    font-weight: 400 !important;
-}
-
-body {
-    background-color: #100028;
-}
-
-.info-text {
-    color: #adadad;
-}
-
-@font-face {
-    font-family: "JosefinSans";
-    src: url(../fonts/JosefinSans-Regular.ttf);
-    font-weight: 400;
-}
-
-.background {
-    background-image: url(../images/background.jpg.webp);
-    background-repeat: no-repeat;
-}
-
-h1 {
-    font-weight: 600 !important;
-    font-size: 4rem;
-}
-
-.container {
-    max-width: 1170px;
-}
-
-.primary-btn2 {
-    background: none;
-    border: none;
-    display: inline-block;
-    font-size: 15px;
-    font-weight: 700;
-    padding: 14px 32px 12px;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    position: relative;
-    z-index: 1;
-    top: 0;
-    opacity: 1;
-    cursor: pointer;
-    transition: all, 0.7s;
-}
-
-.primary-btn2:before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 30px;
-    width: 30px;
-    border-left: 2px solid #00bfe7;
-    border-top: 2px solid #00bfe7;
-    content: "";
-    z-index: -1;
-    -webkit-transition: all, 0.7s;
-    -o-transition: all, 0.7s;
-    transition: all, 0.7s;
-}
-
-.primary-btn2:after {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 30px;
-    width: 30px;
-    border-right: 2px solid #00bfe7;
-    border-bottom: 2px solid #00bfe7;
-    content: "";
-    z-index: -1;
-    -webkit-transition: all, 0.7s;
-    -o-transition: all, 0.7s;
-    transition: all, 0.7s;
-}
-
-.primary-btn2:hover:after,
-.primary-btn2:hover:before {
-    height: 100%;
-    width: 100%;
-}
-
-.primary-btn2:hover {
-    text-decoration: none;
-    outline: none;
-}
+    * {
+        font-family: "JosefinSans";
+        font-weight: 400 !important;
+    }
+    
+    body {
+        background-color: #100028;
+    }
+    
+    .info-text {
+        color: #adadad;
+    }
+    
+    @font-face {
+        font-family: "JosefinSans";
+        src: url(../fonts/JosefinSans-Regular.ttf);
+        font-weight: 400;
+    }
+    
+    .background {
+        background-image: url(../images/background.jpg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    h1 {
+        font-weight: 600 !important;
+        font-size: 4rem;
+    }
+    
+    .container {
+        max-width: 1170px;
+    }
+    
+    .primary-btn2 {
+        background: none;
+        border: none;
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 14px 32px 12px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 1;
+        top: 0;
+        opacity: 1;
+        cursor: pointer;
+        transition: all, 0.7s;
+    }
+    
+    .primary-btn2:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 30px;
+        width: 30px;
+        border-left: 2px solid #00bfe7;
+        border-top: 2px solid #00bfe7;
+        content: "";
+        z-index: -1;
+        -webkit-transition: all, 0.7s;
+        -o-transition: all, 0.7s;
+        transition: all, 0.7s;
+    }
+    
+    .primary-btn2:after {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 30px;
+        width: 30px;
+        border-right: 2px solid #00bfe7;
+        border-bottom: 2px solid #00bfe7;
+        content: "";
+        z-index: -1;
+        -webkit-transition: all, 0.7s;
+        -o-transition: all, 0.7s;
+        transition: all, 0.7s;
+    }
+    
+    .primary-btn2:hover:after,
+    .primary-btn2:hover:before {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .primary-btn2:hover {
+        text-decoration: none;
+        outline: none;
+    }
+    
+    @media only screen and (max-width: 1111px) {
+        nav {
+            display: none;
+        }
+        .home {
+            margin-left: 5rem;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .services-flex {
+            flex-wrap: wrap;
+        }
+        .serv {
+            justify-content: center !important;
+            flex-wrap: wrap;
+        }
+    }
