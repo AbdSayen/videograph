@@ -1,0 +1,18 @@
+.portfolio-works {
+    color: white;
+    .navigation {
+        li {
+            margin-right: 2rem;
+            list-style: none;
+        }
+        ul {
+            display: flex;
+            text-align: center;
+        }
+    }
+    .pictures {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}

@@ -22,6 +22,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
+        background-position: top center;
     }
     
     h1 {
@@ -105,8 +106,52 @@
         .services-flex {
             flex-wrap: wrap;
         }
+        .services-card {
+            margin: 2rem 0 !important;
+        }
         .serv {
             justify-content: center !important;
             flex-wrap: wrap;
+            text-align: center;
+            .line {
+                margin: auto;
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 560px) {
+        .home {
+            text-align: center;
+            margin: 6rem auto !important;
+            h6 {
+                font-size: 0.7rem;
+            }
+            .homeTitle {
+                font-size: 2rem !important;
+            }
+            button {
+                padding: 8px 16px;
+            }
+        }
+        .gallery {
+            flex-wrap: wrap;
+        }
+    }
+    
+    @media only screen and (max-width: 420px) {
+        .home {
+            h6 {
+                font-size: 0.5rem;
+            }
+            .homeTitle {
+                font-size: 1.3rem !important;
+            }
+            button {
+                padding: 6px 9px;
+                font-size: 0.5rem;
+            }
+            .page {
+                font-size: 0.7rem !important;
+            }
         }
     }

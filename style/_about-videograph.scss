@@ -1,0 +1,73 @@
+.bg {
+    background-image: url(../images/breadcrumb-bg.jpg);
+}
+
+.title {
+    margin: 3rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    color: white;
+}
+
+.about-videograph {
+    display: flex;
+    .title-text {
+        color: white;
+        right: 0;
+        margin-top: 5rem;
+    }
+    .images {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: 21rem 21rem;
+        grid-template-rows: 16rem 16rem;
+        grid-template-areas: "img1 img2" "img1 img3";
+    }
+    .img1 {
+        grid-area: img1;
+    }
+    .img2 {
+        grid-area: img2;
+    }
+    .img3 {
+        grid-area: img3;
+    }
+    .services-cards {
+        justify-content: center;
+        margin-top: 3rem;
+        .services-flex {
+            display: flex;
+        }
+        .services-card {
+            .square {
+                border-color: gray !important;
+            }
+            text-align: left;
+            width: 15rem;
+            margin-bottom: 3rem;
+            i {
+                width: 5rem;
+                height: 5rem;
+                font-size: 2.5rem;
+                padding: 1rem;
+                margin-bottom: 2rem;
+                text-align: center;
+                position: relative;
+            }
+            .square {
+                width: 5rem;
+                height: 5rem;
+                border: solid 0.15rem #007bff !important;
+                position: absolute;
+                top: -0.2rem;
+                left: 0;
+                transition: all 0.5s ease;
+            }
+             :hover {
+                .square {
+                    transform: rotate(45deg);
+                }
+            }
+        }
+    }
+}

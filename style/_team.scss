@@ -1,32 +1,60 @@
-.team {
-    margin-top: 5rem;
-    background-image: url(../images/team-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    color: white;
-    position: relative;
-    padding-bottom: 5rem;
-    button {
-        width: 16rem;
-        height: 2.5rem;
-        right: 15%;
-        position: absolute;
-        margin-bottom: 5rem;
-        top: 85%;
-    }
-    .title-text {
-        padding-top: 5rem;
-        text-align: left;
-    }
-    .pictures {
-        display: inline;
-        flex-wrap: wrap;
-        justify-content: center;
-        img {
-            margin: 0;
-            padding: 0;
-            width: calc(100%/4.1);
-        }
-    }
-}
+                                                                            .team {
+                                                                                margin-top: 5rem;
+                                                                                background-image: url(../images/team-bg.jpg);
+                                                                                background-repeat: no-repeat;
+                                                                                background-size: cover;
+                                                                                width: 100%;
+                                                                                color: white;
+                                                                                position: relative;
+                                                                                padding-bottom: 5rem;
+                                                                                button {
+                                                                                    width: 16rem;
+                                                                                    height: 2.5rem;
+                                                                                    margin-bottom: 5rem;
+                                                                                    margin-top: 2rem;
+                                                                                }
+                                                                                .title-text {
+                                                                                    padding-top: 5rem;
+                                                                                    text-align: left;
+                                                                                }
+                                                                                .pictures {
+                                                                                    display: flex;
+                                                                                    flex-wrap: wrap;
+                                                                                    justify-content: center;
+                                                                                    align-items: center;
+                                                                                    img {
+                                                                                        height: 100%;
+                                                                                        width: calc(100%/4.1);
+                                                                                        padding-left: 0.3rem;
+                                                                                        padding-right: 0.3rem;
+                                                                                    }
+                                                                                }
+                                                                                .img1 {
+                                                                                    margin-top: 4rem;
+                                                                                }
+                                                                                .img3 {
+                                                                                    margin-top: -4rem;
+                                                                                }
+                                                                                .img4 {
+                                                                                    margin-top: -8rem;
+                                                                                }
+                                                                            }
+                                                                            
+                                                                            @media only screen and (max-width: 768px) {
+                                                                                .team {
+                                                                                    .title-text {
+                                                                                        text-align: center;
+                                                                                        div {
+                                                                                            margin: 2rem auto;
+                                                                                        }
+                                                                                    }
+                                                                                    .pictures {
+                                                                                        img {
+                                                                                            margin: 0.5rem 0 !important;
+                                                                                            width: 48%;
+                                                                                        }
+                                                                                        display: flex;
+                                                                                        flex-wrap: wrap;
+                                                                                    }
+                                                                                }
+                                                                            }

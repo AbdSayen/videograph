@@ -1,0 +1,36 @@
+.clients {
+    margin-top: 5rem;
+    padding: 5rem;
+    background: url(../images/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-size: cover;
+    color: white;
+    justify-items: center;
+    .title-text {
+        text-align: center;
+    }
+    .comments {
+        display: flex;
+        justify-content: space-between;
+        .comment {
+            padding: 2rem;
+            .info-text {
+                border: #3d3a64 1px solid;
+                padding: 2rem;
+            }
+            .people-info {
+                display: flex;
+                img {
+                    border-radius: 100%;
+                    border: none;
+                    margin-right: 1rem;
+                }
+                .pos {
+                    display: grid;
+                }
+            }
+        }
+    }
+}

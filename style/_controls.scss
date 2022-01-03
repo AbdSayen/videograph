@@ -15,7 +15,9 @@
         list-style: none;
         display: flex;
         #home-text {
-            border-bottom: solid 0.15rem #007bff !important;
+            a {
+                border-bottom: solid 0.15rem #007bff !important;
+            }
         }
         li {
             margin-left: 2rem;
